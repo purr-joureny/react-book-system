@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        // 启用增量编译，提高后续编译速度
+        "incremental": true,
+        // 增量编译文件的存储位置
+        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+        // 编译目标 JS 版本
+        "target": "ES2022",
+        // 使用的 JS 语言版本库
+        "lib": [
+            "ES2023"
+        ],
+        // 使用的模块系统
+        "module": "ESNext",
+        // 跳过对声明文件的类型检查
+        "skipLibCheck": true,
+        /* Bundler 模式配置 */
+        // 模块解析策略
+        "moduleResolution": "Bundler",
+        // 允许导入 .ts 扩展名的文件
+        "allowImportingTsExtensions": true,
+        // 确保每个文件都被视为单独的模块
+        "isolatedModules": true,
+        // 强制模块检测
+        "moduleDetection": "force",
+        // 不输出编译文件
+        "noEmit": true,
+        /* 代码检查配置 */
+        // 启用所有严格的类型检查选项
+        "strict": true,
+        // 报告未使用的局部变量
+        "noUnusedLocals": true,
+        // 报告未使用的参数
+        "noUnusedParameters": true,
+        // 防止 switch 语句中的 case 贯穿
+        "noFallthroughCasesInSwitch": true
+    },
+    // 指定需要编译的文件
+    "include": [
+        "vite.config.ts"
+    ]
+}

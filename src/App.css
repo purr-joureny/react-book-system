@@ -1,0 +1,57 @@
+/* 重置所有元素的margin和padding  */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* 重置列表样式 */
+ul,
+ol {
+	list-style: none;
+}
+
+/* 重置链接样式 */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* 重置标题字体大小 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+/* 设置基础字体 */
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		'Helvetica Neue', Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 14px;
+	color: #333;
+}
+
+/* 图片默认块级显示,避免图片下方空隙 */
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* 表单元素字体继承 */
+input,
+button,
+textarea,
+select {
+	font-family: inherit;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}

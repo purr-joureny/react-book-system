@@ -1,0 +1,35 @@
+#bookManage {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        height: 80px;
+        line-height: 80px;
+        border-bottom: 2px solid #ccc;
+        padding-left: 20px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .book-list {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            margin-left: 30px;
+            margin-bottom: 30px;
+
+            .links {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        }
+
+    }
+
+
+}

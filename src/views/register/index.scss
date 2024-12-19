@@ -1,0 +1,14 @@
+#register-container {
+    width: 400px;
+    margin: 100px auto;
+    // text-align: center;
+
+    .links {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
